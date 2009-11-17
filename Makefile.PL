@@ -1,0 +1,16 @@
+use strict;
+use inc::Module::Install;
+name 'Acme-Daily-Fail';
+author 'Chris Williams <chris@bingosnet.co.uk>';
+version_from 'lib/Acme/Daily/Fail.pm';
+abstract_from 'lib/Acme/Daily/Fail.pm';
+readme_from 'lib/Acme/Daily/Fail.pm';
+license 'perl';
+auto_license holder => 'Chris Applegate and Chris Williams';
+perl_version '5.006';
+build_requires 'Test::More' => 0.47;
+requires 'Math::Random' => 0.69;
+requires 'constant'     => 0;
+githubmeta;
+auto_provides;
+WriteAll();

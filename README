@@ -1,0 +1,37 @@
+NAME
+    Acme::Daily::Fail - generate random newspaper headlines
+
+SYNOPSIS
+      use strict;
+      use warnings;
+
+      use Acme::Daily::Fail qw(get_headline);
+
+      print get_headline(), "\n";
+
+DESCRIPTION
+    Acme::Daily::Fail provides a single function that when called generates
+    a random newspaper headline which is typical for a certain UK newspaper
+    title.
+
+FUNCTION
+    "get_headline"
+        Not exported by default, takes no parameters, returns a randomly
+        generated headline.
+
+AUTHOR
+    Chris "BinGOs" Williams <chris@bingosnet.co.uk>
+
+    based on the Daily-Mail-o-matic by Chris Applegate
+    <http://www.qwghlm.co.uk/toys/dailymail/>
+
+LICENSE
+    Copyright © Chris Applegate and Chris Williams
+
+    This module may be used, modified, and distributed under the same terms
+    as Perl itself. Please see the license that came with your Perl
+    distribution for details.
+
+SEE ALSO
+    <http://www.qwghlm.co.uk/toys/dailymail/>
+
