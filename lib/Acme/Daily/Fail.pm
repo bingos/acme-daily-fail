@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Math::Random;
 
-our $VERSION = '0.02';
+our $VERSION = '1.00';
 
 our @ISA            = qw[Exporter];
 our @EXPORT_OK      = qw[get_headline];

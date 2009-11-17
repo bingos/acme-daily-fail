@@ -13,4 +13,5 @@ requires 'Math::Random' => 0.69;
 requires 'constant'     => 0;
 githubmeta;
 auto_provides;
+makemaker_args(dist => { PREOP => "$^X ./tools/git-log.pl > ./Changes" });
 WriteAll();
