@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Math::Random;
 
-our $VERSION = '1.00';
+our $VERSION = '1.02';
 
 our @ISA            = qw[Exporter];
 our @EXPORT_OK      = qw[get_headline];
@@ -75,7 +75,7 @@ my $subjects = [
 	["russell brand",3,1],     # FIXME: Delete when latest moral panic is over
 	["teenage sex",3,1],
 	["political correctness",3,1],
-	["health &amp; safety",3,1],
+	["health & safety",3,1],
 	["feminism",3,1],
 	["the metric system",3,1],    # For fuck's sake
 	["dumbing-down",3,1],
