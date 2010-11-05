@@ -87,7 +87,7 @@ my $subjects = [
 	["the nanny state",3,1],
 	["cancer",3,1],               # Could cancer give you cancer?
 	["binge drinking",3,1],
-	["the house price crash",3,1] # Hahahaha
+	["the house price crash",3,1],# Hahahaha
 	["jihadists",3,1]             # Topical
 ];
 
