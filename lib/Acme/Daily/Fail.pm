@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Math::Random;
 
-our $VERSION = '1.02';
+our $VERSION = '1.04';
 
 our @ISA            = qw[Exporter];
 our @EXPORT_OK      = qw[get_headline];
@@ -88,6 +88,7 @@ my $subjects = [
 	["cancer",3,1],               # Could cancer give you cancer?
 	["binge drinking",3,1],
 	["the house price crash",3,1] # Hahahaha
+	["jihadists",3,1]             # Topical
 ];
 
 # Transitive phrases (i.e. bad thing they do)
