@@ -71,7 +71,7 @@ my $subjects = [
 	["paedophiles",3,2],
 	["gordon brown",3,1],
 	["george osbourne",3,1],
-	["jacqui smith",3,1],	
+	["jacqui smith",3,1],
 	["russell brand",3,1],     # FIXME: Delete when latest moral panic is over
 	["teenage sex",3,1],
 	["political correctness",3,1],
@@ -114,7 +114,7 @@ my $transitive_phrases = [
 	["molest","molested","molesting",""],
 	["have sex with","had sex with","having sex with",""],
 	["impregnate", "impregnated", "impregnating", ""],
-	["steal the identity of","stolen the identity of","stealing the identity of",""],	
+	["steal the identity of","stolen the identity of","stealing the identity of",""],
 	["destroy","destroyed","destroying",""],
 	["kill","killed", "killing",""],
 	["ruin","ruined","ruining",""],
@@ -159,7 +159,7 @@ my $objects = [
 # Matches an auxiliary verb with the subject
 sub _match_verb_and_subject {
   my ($subject,$verb) = @_;
-  
+
 	if ($subject->[NUMBER] == 1 && $subject->[PERSON] == 3) {
 		 return $verb->[SINGULAR];
 	}
@@ -222,7 +222,7 @@ qq[BLOODY IMMIGRANTS];
 
 =head1 DESCRIPTION
 
-Acme::Daily::Fail provides a single function that when called generates a 
+Acme::Daily::Fail provides a single function that when called generates a
 random newspaper headline which is typical for a certain UK newspaper title.
 
 =head1 FUNCTION
