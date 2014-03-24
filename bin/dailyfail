@@ -1,0 +1,9 @@
+#!perl
+#ABSTRACT: generate random newspaper headlines
+package
+  dailyfail;
+use strict;
+use warnings;
+use Acme::Daily::Fail qw(get_headline);
+$|=1;
+print get_headline(), "\n";
