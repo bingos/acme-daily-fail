@@ -89,7 +89,10 @@ my $subjects = [
 	["binge drinking",3,1],
 	["the house price crash",3,1],# Hahahaha
 	["jihadists",3,1],             # Topical
-	["x factor",3,1]             # Topical
+	["x factor",3,1],             # Topical
+	["foxes",3,2],
+	["twitter",3,1],            # Topical
+	["the mmr jab",3,1],             # Topical
 ];
 
 # Transitive phrases (i.e. bad thing they do)
