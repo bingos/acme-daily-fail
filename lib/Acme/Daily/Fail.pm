@@ -31,7 +31,7 @@ sub _getRandom {
 #function Verb(plural, singular, tense) {
 
 my $auxiliary_verbs = [
-	["will", "will", "present"], 
+	["will", "will", "present"],
 	["could", "could", "present"],
 	["are", "is", "active"],
 	["have", "has", "past"]
@@ -41,7 +41,7 @@ my $auxiliary_verbs = [
 #function Noun(word,person,number) {
 
 my $subjects = [
-	["new labour",3,1],
+	["the labour party",3,1],
 	["brussels",3,1],
 	["the bbc",3,1],
 	["the e.u.",3,1],
@@ -64,15 +64,13 @@ my $subjects = [
 	["feral children",3,2],    # They hate children *and* paedophiles FFS, make your minds up
 	["chavs",3,2],
 	["the p.c. brigade",3,2],
+  ["cyclists",3,2],
 	["asylum seekers",3,2],    # Nicer way of saying 'brown people'
 	["gays",3,2],
 	["lesbians",3,2],
 	["single mothers",3,2],
+	["working mothers",3,2],
 	["paedophiles",3,2],
-	["gordon brown",3,1],
-	["george osbourne",3,1],
-	["jacqui smith",3,1],
-	["russell brand",3,1],     # FIXME: Delete when latest moral panic is over
 	["teenage sex",3,1],
 	["political correctness",3,1],
 	["health & safety",3,1],
