@@ -154,7 +154,8 @@ my $objects = [
 	"the conservative party",  # FAIL
 	"cliff richard",           # Should this be in here?
 	"the memory of diana",
-	"Britain's swans"          # This always stays
+	"Britain's swans",         # This always stays
+  "Brexit",
 ];
 
 # Matches an auxiliary verb with the subject
