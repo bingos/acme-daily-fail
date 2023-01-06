@@ -91,8 +91,9 @@ my $subjects = [
 	["foxes",3,2],
 	["twitter",3,1],            # Topical
 	["the mmr jab",3,1],             # Topical
-  ["judges",3,1],
+  ["judges",3,2],
   ["covid",3,1],              # fuck you, 2020
+  ['meghan markle',3,1],
 ];
 
 # Transitive phrases (i.e. bad thing they do)
