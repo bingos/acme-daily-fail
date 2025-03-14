@@ -95,6 +95,7 @@ my $subjects = [
   ["covid",3,1],              # fuck you, 2020
   ['meghan markle',3,1],
   ['woke',3,1],
+  ['wokery',3,1],     # sophisticated
 ];
 
 # Transitive phrases (i.e. bad thing they do)
